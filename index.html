@@ -5,233 +5,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Srinu Tedlapu</title>
   <style>
-    /* Basic styles */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f2f2f2;
+      background-color: #f5f5f5; /* Light gray background */
     }
-
-    header, section {
+    .dark-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+      z-index: 1000;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
       padding: 20px;
-      background-color: #fff;
-      margin-bottom: 20px;
+      background-color: #ffffff; /* White container background */
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
-
+    header {
+      background-color: #005293; /* Ebixcash Blue */
+      color: #ffffff; /* White text */
+      padding: 20px;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
     h1, h2, h3 {
-      margin: 0;
-      color: #333;
+      color: #005293; /* Ebixcash Blue */
     }
-
     p {
-      color: #666;
+      color: #333333; /* Dark gray */
     }
-
     ul {
       list-style-type: none;
       padding: 0;
     }
-
     li {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
-
-    /* Animation-specific styles */
-    .animated {
-      opacity: 0;
+    hr {
+      border: 0;
+      border-top: 1px solid #cccccc; /* Light gray */
+      margin: 20px 0;
     }
-
-    /* Line diagram-like sections */
-    .line-diagram {
-      position: relative;
-      height: 100px;
+    .contact-buttons {
+      text-align: center;
       margin-bottom: 20px;
     }
-
-    .line-diagram::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: #ddd;
-      z-index: -1;
-    }
-
-    .line-diagram-item {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: #4caf50;
-      color: #fff;
-      padding: 10px;
+    .contact-buttons button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
       border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .contact-buttons button:hover {
+      background-color: #005293; /* Darker Ebixcash Blue on hover */
     }
   </style>
 </head>
 <body>
-<header class="animated">
-  <h1>About Me</h1>
-  <p>As a passionate advocate for innovation and technology,
-  I, Srinu Tedlapu, am driven by a relentless curiosity to explore IP networking, configuration, and Installation of Security Systems with a solid foundation from practical experience and combining my analytical mindset with a penchant for problem-solving.</p>
-</header>
 
+<div class="dark-overlay" id="darkOverlay">
+  <div class="contact-buttons">
+    <button onclick="callNumber()">Call</button>
+    <button onclick="openWhatsApp()">WhatsApp</button>
+    <button onclick="sendEmail()">Email</button>
+  </div>
+</div>
 
-<section id="experience" class="animated">
+<div class="container">
+  <header>
+    <h1>Srinu Tedlapu</h1>
+  </header>
+  <p>Email: srinu3090@gmail.com | Contact: 9642491820</p>
+  <hr>
+  <h2>About Me</h2>
+  <p>As a passionate advocate for innovation and technology, I, Srinu Tedlapu, am driven by a relentless curiosity to explore IP networking, configuration, and Installation of Security Systems with a solid foundation from practical experience and combining my analytical mindset with a penchant for problem-solving.</p>
+  <hr>
   <h2>Experience</h2>
-  
-  <div class="experience-item">
-    <h3>Security Systems Engineer</h3>
-    <p>Self-employed</p>
-    <p>Jul 2019 - Present · 4 yrs 9 mos</p>
-    <p>Visakhapatnam, Andhra Pradesh, India</p>
-    <p>Experienced Security Systems Specialist with hands-on experience in installing and maintaining security systems for residential and commercial properties. Skilled in configuring and programming various security systems such as burglar alarms, fire alarms, access control systems, and surveillance cameras. Adept at troubleshooting technical issues, performing routine maintenance, and providing exceptional customer service. Demonstrated ability to work efficiently and effectively in a fast-paced environment.</p>
-    <p>Skills: Documentation, Fire Alarm, Wireless Networking, Network Engineering, Switches, Burglar Alarm, IP Configurations, Troubleshooting.</p>
-  </div>
-  
-  <div class="experience-item">
-    <h3>Business Development Associate</h3>
-    <p>BYJU'S Learning</p>
-    <p>Apr 2023 - Jun 2023 · 3 mos</p>
-    <p>Visakhpatnam</p>
-    <p>Communication and Sales</p>
-    <p>Skills: Communication, Sales, Cold Calling, Sales Operations, Customer Relationship Management (CRM), Problem Solving</p>
-  </div>
-  
-  <div class="experience-item">
-    <h3>Graduate Apprenticeship</h3>
-    <p>Rashtriya Ispat Nigam Limited, Vizag Steel Plant</p>
-    <p>Jan 2021 - Jan 2022 · 1 yr 1 mo</p>
-    <p>Visakhapatnam, Andhra Pradesh, India · On-site</p>
-    <p>As a Trainee, I learned how a lot of people in a large industry will work with the utmost care in every factor such as safety and precaution while engaging with automated systems at every stage of steel production to convert as an intermediate material to other steel processing industries. And also producing end products like reinforced bars for infrastructure developments. Seeking guidance to excel in dynamic work settings and proficient in adapting to a new environment and understanding industrial procedures during internship.</p>
-    <p>Skills: Communication, Water Quality, Lathe Machines workings, Role of Roll Turning Operations in Steel Production.</p>
-  </div>
-</section>
-
-
- <section id="skills" class="animated">
+  <p><strong>Security Systems Engineer</strong><br>
+  <br>
+  Jul 2019 - Present · 4 yrs 9 mos<br>
+  Visakhapatnam, Andhra Pradesh, India<br><br>
+  Experienced Security Systems Specialist with hands-on experience in installing and maintaining security systems for residential and commercial properties. Skilled in configuring and programming various security systems such as burglar alarms, fire alarms, access control systems, and surveillance cameras. Adept at troubleshooting technical issues, performing routine maintenance, and providing exceptional customer service. Demonstrated ability to work efficiently and effectively in a fast-paced environment.</p>
+  <p>Skills: Documentation, Fire Alarm, Wireless Networking, Network Engineering, Switches, Burglar Alarm, IP Configurations, Troubleshooting.</p>
+  <hr>
+  <p><strong>Network Installation Technician</strong><br>
+  Freelancing<br>
+  Network Engineer<br>
+  Installed and configured Cisco routers and switches in banks, including HDFC and Axis Banks, ensuring optimal network performance and security. Collaborated with bank IT teams to integrate new network components seamlessly into existing infrastructure, adhering to industry standards and best practices.</p>
+  <hr>
   <h2>Skills</h2>
-  
-  <h3>Operating Systems</h3>
   <ul>
-    <li>Windows 10</li>
-    <li>Windows 11</li>
-    <li>Windows XP</li>
-    <li>Linux (Ubuntu, Kali)</li>
+    <li>Operating Systems: Windows 10, Windows 11, Windows XP, Linux (Ubuntu, Kali)</li>
+    <li>Business Applications: CRM Applications (LeadSquared, Knowlarity & Ameyo), Cold Calling, Microsoft Excel, Data Analysis, Data Import/Export, Data Validation & Reporting, Microsoft PowerPoint, Illustrating Catalogue Data, Data Visualization, Presentation</li>
+    <li>Technical Skills: Network Security, Network Architecture, Security Hardening, Cloud Networks, TCP/IP</li>
+    <li>Transferable Skills: Google Spreadsheets, CRM Tools, MS Word and Excel for Data Extraction, Importing, and Validation, Typing Speed with 40 WPM, Attention to Detail, Professional Attitude and Appearance, Ability to Prioritize Tasks and Multitask, Ability to Deliver Quality Service through Support, Passion for Continuous Improvement, Analytical Mindset for Issue Identification and Defect Recognition</li>
   </ul>
-  
-  <h3>Business Applications</h3>
-  <ul>
-    <li>CRM Applications: LeadSquared, Knowlarity & Ameyo</li>
-    <li>Cold Calling</li>
-    <li>Microsoft Excel</li>
-    <li>Data Analysis</li>
-    <li>Data Import/Export</li>
-    <li>Data Validation & Reporting</li>
-    <li>Microsoft PowerPoint</li>
-    <li>Illustrating Catalogue Data</li>
-    <li>Data Visualization</li>
-    <li>Presentation</li>
-  </ul>
-  
-  <h3>Technical Skills</h3>
-  <ul>
-    <li>Network Security (Implemented firewall rules to restrict unauthorized access.)</li>
-    <li>Network Architecture (Designed and deployed a scalable network infrastructure for a medium-sized organization.)</li>
-    <li>Security Hardening (Conducted security audits and applied necessary patches to enhance system security.)</li>
-    <li>Cloud Networks (Configured VPCs and subnets in AWS for seamless communication between services.)</li>
-    <li>TCP/IP (Proficient in understanding and troubleshooting network protocols.)</li>
-  </ul>
-  
-  <h3>Transferable Skills</h3>
-  <ul>
-    <li>Familiarity with tools and methodologies associated with the specific area or functions</li>
-    <li>Google Spreadsheets (Created dynamic spreadsheets for data analysis and reporting.)</li>
-    <li>CRM Tools (Utilized LeadSquared, Ameyo, Knowlarity for lead management and customer interactions.)</li>
-    <li>MS Word and Excel for Data Extraction, Importing, and Validation (Extracted and validated data using advanced Excel functions.)</li>
-    <li>Typing Speed with 40 WPM (Accurate and efficient typing skills.)</li>
-    <li>Attention to Detail (Meticulous in data validation and reporting.)</li>
-    <li>Professional Attitude and Appearance (Maintain a polished and respectful demeanor.)</li>
-    <li>Ability to Prioritize Tasks and Multitask (Successfully manage multiple projects simultaneously.)</li>
-    <li>Ability to Deliver Quality Service through Support</li>
-    <li>Passion for Continuous Improvement (Actively seek opportunities to enhance skills and knowledge.)</li>
-    <li>Analytical Mindset for Issue Identification and Defect Recognition (Quickly identify and resolve technical issues.)</li>
-  </ul>
-</section>
-
-
-  <section id="education" class="animated">
+  <hr>
   <h2>Education</h2>
-  <div class="education-item">
-    <h3>Bachelor's Degree</h3>
-    <p>Vignan's Institute of Information and Technology, Visakhapatnam</p>
-    <p>Year of Completion: 2019</p>
-    <p>Degree: B.tech Mechanical Engineering</p>
-  </div>
-</section>
-
-
- <section id="certifications" class="animated">
+  <p><strong>Bachelor's Degree</strong><br>
+  Vignan's Institute of Information and Technology, Visakhapatnam<br>
+  Year of Completion: 2019<br>
+  Degree: B.tech Mechanical Engineering</p>
+  <hr>
   <h2>Certifications</h2>
-  
-  <div class="certification-item">
-    <h3>Connect & Protect: Networks and Network Security</h3>
-    <p>Coursera</p>
-    <p>Issued Oct 2023</p>
-    <p>Skills: Network security, Network Architecture, Security Hardening, Cloud Networks, TCP/IP</p>
-  </div>
-  
-  <div class="certification-item">
-    <h3>Foundation of Cybersecurity</h3>
-    <p>Coursera</p>
-    <p>Issued Jul 2023</p>
-    <p>Skills: Cybersecurity, Historical Attacks, Ethics in cybersecurity, Information Security (INFOSEC), NIST Cybersecurity Framework (CSF)</p>
-  </div>
-  
-  <div class="certification-item">
-    <h3>Autocad</h3>
-    <p>Datapro</p>
-    <p>Issued Feb 2016</p>
-    <p>Credential ID: AP/EGD/006</p>
-  </div>
-  
-  <div class="certification-item">
-    <h3>Manage Security Risks</h3>
-    <p>Coursera</p>
-    <p>Skills: NIST Risk Management Framework (RMF), Security Audits, Information Security (INFOSEC), Incident Response Playbooks, NIST Cybersecurity Framework (CSF)</p>
-  </div>
-</section>
+  <ul>
+    <li>Connect & Protect: Networks and Network Security
+Coursera
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+Issued Oct 2023
+
+Skills: Network security, Network Architecture, Security Hardening, Cloud Networks, TCP/IP</li>
+    <li>Foundation of Cybersecurity
+Coursera
+
+Issued Jul 2023
+
+Skills: Cybersecurity, Historical Attacks, Ethics in cybersecurity, Information Security (INFOSEC), NIST Cybersecurity Framework (CSF)
+</li>
+    <li>Autocad
+Datapro
+
+Issued Feb 2016
+
+Credential ID: AP/EGD/006</li>
+    <li>Manage Security Risks
+Coursera
+
+Skills: NIST Risk Management Framework (RMF), Security Audits, Information Security (INFOSEC), Incident Response Playbooks, NIST Cybersecurity Framework (CSF)</li>
+  </ul>
+</div>
+
 <script>
-  // Animating elements when they enter the viewport
-  document.addEventListener('DOMContentLoaded', function () {
-    var animatedElements = document.querySelectorAll('.animated');
+  function toggleDarkOverlay() {
+    var darkOverlay = document.getElementById("darkOverlay");
+    darkOverlay.style.display = (darkOverlay.style.display === "block") ? "none" : "block";
+  }
 
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.intersectionRatio > 0) {
-          anime({
-            targets: entry.target,
-            opacity: 1,
-            translateY: [50, 0],
-            easing: 'easeOutExpo',
-            duration: 1000,
-            delay: anime.stagger(200),
-          });
-        }
-      });
-    });
+  function callNumber() {
+    window.location.href = "tel:9642491820";
+  }
 
-    animatedElements.forEach(function (element) {
-      observer.observe(element);
-    });
-  });
+  function openWhatsApp() {
+    window.open("https://wa.me/919642491820", "_blank");
+  }
+
+  function sendEmail() {
+    window.location.href = "mailto:srinu3090@gmail.com";
+  }
 </script>
+
 </body>
 </html>
