@@ -1,171 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Srinu Tedlapu</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5; /* Light gray background */
-    }
-    .dark-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
-      z-index: 1000;
-    }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #ffffff; /* White container background */
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
-    header {
-      background-color: #005293; /* Ebixcash Blue */
-      color: #ffffff; /* White text */
-      padding: 20px;
-      text-align: center;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
-    h1, h2, h3 {
-      color: #005293; /* Ebixcash Blue */
-    }
-    p {
-      color: #333333; /* Dark gray */
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    hr {
-      border: 0;
-      border-top: 1px solid #cccccc; /* Light gray */
-      margin: 20px 0;
-    }
-    .contact-buttons {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .contact-buttons button {
-      margin: 10px;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      color: #ffffff;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    .contact-buttons button:hover {
-      background-color: #005293; /* Darker Ebixcash Blue on hover */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV Cameras - Special Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            padding: 2rem 1rem;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            flex: 1 1 50%;
+        }
+        .hero-text {
+            flex: 1 1 50%;
+            text-align: center;
+            padding: 1rem;
+        }
+        .hero-text h2 {
+            margin-top: 0;
+        }
+        .cta-button {
+            background-color: #ff5733;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .products, .social-proof, .contact-form {
+            margin-bottom: 2rem;
+        }
+        .camera-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .camera-item {
+            border: 1px solid #ddd;
+            margin: 1rem;
+            padding: 1rem;
+            flex: 1 1 calc(33.333% - 2rem);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .camera-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            margin-top: 1rem;
+        }
+        .contact-form input {
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .contact-form button {
+            background-color: #28a745;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Specific styles for Instagram */
+        .ig-header, .ig-footer {
+            background-color: #833AB4; /* Instagram color */
+        }
+        /* Specific styles for Facebook */
+        .fb-header, .fb-footer {
+            background-color: #3b5998; /* Facebook color */
+        }
+    </style>
 </head>
 <body>
+    <!-- Instagram Landing Page -->
+    <header class="ig-header">
+        <h1>Exclusive Offer on CCTV Cameras</h1>
+    </header>
+    <main class="ig-main">
+        <section class="hero">
+            <img src="path_to_image/hero_image.jpg" alt="CCTV Cameras">
+            <div class="hero-text">
+                <h2>High-Quality CCTV Cameras</h2>
+                <p>Protect your home and business with our top-rated CCTV cameras.</p>
+                <a href="#form" class="cta-button">Get a Free Quote</a>
+            </div>
+        </section>
+        <section class="products">
+            <h2>Our Best Sellers</h2>
+            <div class="camera-container">
+                <!-- Camera Items will be dynamically populated -->
+            </div>
+        </section>
+        <section class="social-proof">
+            <h2>Customer Reviews</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p>"Fantastic quality and easy to install. Highly recommended!" - John D.</p>
+                </div>
+                <div class="review">
+                    <p>"The best CCTV system I've ever used." - Sarah W.</p>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="contact-form">
+            <h2>Get Your Free Quote</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="ig-footer">
+        <p>&copy; 2024 CCTV Cameras. All rights reserved.</p>
+    </footer>
 
-<div class="dark-overlay" id="darkOverlay">
-  <div class="contact-buttons">
-    <button onclick="callNumber()">Call</button>
-    <button onclick="openWhatsApp()">WhatsApp</button>
-    <button onclick="sendEmail()">Email</button>
-  </div>
-</div>
+    <!-- Facebook Landing Page -->
+    <header class="fb-header">
+        <h1>Special Offer on CCTV Cameras</h1>
+    </header>
+    <main class="fb-main">
+        <section class="hero">
+            <img src="path_to_image/hero_image_fb.jpg" alt="CCTV Cameras">
+            <div class="hero-text">
+                <h2>Secure Your Property Today</h2>
+                <p>Exclusive discounts on our range of CCTV cameras.</p>
+                <a href="#form" class="cta-button">Claim Your Discount</a>
+            </div>
+        </section>
+        <section class="products">
+            <h2>Top Picks</h2>
+            <div class="camera-container">
+                <!-- Camera Items will be dynamically populated -->
+            </div>
+        </section>
+        <section class="social-proof">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p>"Amazing service and top-notch quality!" - Michael B.</p>
+                </div>
+                <div class="review">
+                    <p>"Highly recommend these cameras for any property." - Lisa K.</p>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="contact-form">
+            <h2>Claim Your Discount</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="fb-footer">
+        <p>&copy; 2024 CCTV Cameras. All rights reserved.</p>
+    </footer>
 
-<div class="container">
-  <header>
-    <h1>Srinu Tedlapu</h1>
-  </header>
-  <p>Email: srinu3090@gmail.com | Contact: 9642491820</p>
-  <hr>
-  <h2>About Me</h2>
-  <p>As a passionate advocate for innovation and technology, I, Srinu Tedlapu, am driven by a relentless curiosity to explore IP networking, configuration, and Installation of Security Systems with a solid foundation from practical experience and combining my analytical mindset with a penchant for problem-solving.</p>
-  <hr>
-  <h2>Experience</h2>
-  <p><strong>Security Systems Engineer</strong><br>
-  <br>
-  Jul 2019 - Present · 4 yrs 9 mos<br>
-  Visakhapatnam, Andhra Pradesh, India<br><br>
-  Experienced Security Systems Specialist with hands-on experience in installing and maintaining security systems for residential and commercial properties. Skilled in configuring and programming various security systems such as burglar alarms, fire alarms, access control systems, and surveillance cameras. Adept at troubleshooting technical issues, performing routine maintenance, and providing exceptional customer service. Demonstrated ability to work efficiently and effectively in a fast-paced environment.</p>
-  <p>Skills: Documentation, Fire Alarm, Wireless Networking, Network Engineering, Switches, Burglar Alarm, IP Configurations, Troubleshooting.</p>
-  <hr>
-  <p><strong>Network Installation Technician</strong><br>
-  Freelancing<br>
-  Network Engineer<br>
-  Installed and configured Cisco routers and switches in banks, including HDFC and Axis Banks, ensuring optimal network performance and security. Collaborated with bank IT teams to integrate new network components seamlessly into existing infrastructure, adhering to industry standards and best practices.</p>
-  <hr>
-  <h2>Skills</h2>
-  <ul>
-    <li>Operating Systems: Windows 10, Windows 11, Windows XP, Linux (Ubuntu, Kali)</li>
-    <li>Business Applications: CRM Applications (LeadSquared, Knowlarity & Ameyo), Cold Calling, Microsoft Excel, Data Analysis, Data Import/Export, Data Validation & Reporting, Microsoft PowerPoint, Illustrating Catalogue Data, Data Visualization, Presentation</li>
-    <li>Technical Skills: Network Security, Network Architecture, Security Hardening, Cloud Networks, TCP/IP</li>
-    <li>Transferable Skills: Google Spreadsheets, CRM Tools, MS Word and Excel for Data Extraction, Importing, and Validation, Typing Speed with 40 WPM, Attention to Detail, Professional Attitude and Appearance, Ability to Prioritize Tasks and Multitask, Ability to Deliver Quality Service through Support, Passion for Continuous Improvement, Analytical Mindset for Issue Identification and Defect Recognition</li>
-  </ul>
-  <hr>
-  <h2>Education</h2>
-  <p><strong>Bachelor's Degree</strong><br>
-  Vignan's Institute of Information and Technology, Visakhapatnam<br>
-  Year of Completion: 2019<br>
-  Degree: B.tech Mechanical Engineering</p>
-  <hr>
-  <h2>Certifications</h2>
-  <ul>
-    <li>Connect & Protect: Networks and Network Security
-Coursera
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cameras = [
+                { type: 'Wired', resolution: '2MP, 4MP, 5MP, 6MP, 8MP, 12MP', lens: '2.8mm, 3.6mm, 6mm, 8mm', ir: '20, 40, 80 meters' },
+                { type: 'Wireless', resolution: '2MP, 3MP, 4MP', lens: '3.6mm', ir: '15, 20 meters' },
+                { type: '4G', resolution: '2MP, 3MP, 4MP', lens: '3.6mm', ir: '30 meters' },
+                { type: 'WiFi', resolution: '2MP, 3MP, 4MP, 8MP', lens: '8mm', ir: '50 meters' },
+                { type: 'PTZ', resolution: '2MP', zoom: '5x, 10x, 25x, 32x', ir: '80, 100 meters' },
+                // Add more cameras as needed
+            ];
 
-Issued Oct 2023
+            function createCameraItem(camera) {
+                return `
+                    <div class="camera-item">
+                        <img src="path_to_image/${camera.type.toLowerCase()}.jpg" alt="${camera.type} Camera">
+                        <h3>${camera.type} Camera</h3>
+                        <p>Resolution: ${camera.resolution}</p>
+                        <p>Lens: ${camera.lens}</p>
+                        <p>IR Distance: ${camera.ir}</p>
+                        ${camera.zoom ? `<p>Zoom: ${camera.zoom}</p>` : ''}
+                    </div>
+                `;
+            }
 
-Skills: Network security, Network Architecture, Security Hardening, Cloud Networks, TCP/IP</li>
-    <li>Foundation of Cybersecurity
-Coursera
+            function populateCameras() {
+                cameras.forEach(camera => {
+                    const section = document.querySelector('.camera-container');
+                    if (section) {
+                        section.innerHTML += createCameraItem(camera);
+                    }
+                });
+            }
 
-Issued Jul 2023
-
-Skills: Cybersecurity, Historical Attacks, Ethics in cybersecurity, Information Security (INFOSEC), NIST Cybersecurity Framework (CSF)
-</li>
-    <li>Autocad
-Datapro
-
-Issued Feb 2016
-
-Credential ID: AP/EGD/006</li>
-    <li>Manage Security Risks
-Coursera
-
-Skills: NIST Risk Management Framework (RMF), Security Audits, Information Security (INFOSEC), Incident Response Playbooks, NIST Cybersecurity Framework (CSF)</li>
-  </ul>
-</div>
-
-<script>
-  function toggleDarkOverlay() {
-    var darkOverlay = document.getElementById("darkOverlay");
-    darkOverlay.style.display = (darkOverlay.style.display === "block") ? "none" : "block";
-  }
-
-  function callNumber() {
-    window.location.href = "tel:9642491820";
-  }
-
-  function openWhatsApp() {
-    window.open("https://wa.me/919642491820", "_blank");
-  }
-
-  function sendEmail() {
-    window.location.href = "mailto:srinu3090@gmail.com";
-  }
-</script>
-
+            populateCameras();
+        });
+    </script>
 </body>
 </html>
