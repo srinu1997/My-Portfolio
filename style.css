@@ -202,7 +202,7 @@ button {
      font-size: 45px;
      font-weight: bold;
      line-height: 45px;
-     color: #2f2f2f;
+     color: #2f64f2f;
      text-transform: uppercase;
 }
 
@@ -222,7 +222,7 @@ button {
 }
 
 .read_more:hover {
-     background: #7f85f7;
+     background: #7f75f7;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -368,7 +368,7 @@ ul.email li {
 }
 
 .full_bf {
-     background:#8187fa;
+     background:#8165fa;
      width: 100%;
      background-size: cover;
      position: relative;
