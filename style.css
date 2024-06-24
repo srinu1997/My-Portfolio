@@ -3,7 +3,7 @@ banner_main
 -------------------------------------------------------*/
 
 .banner_main {
-    background: #008080; /* Changed to teal green */
+    background: #008080; /* Teal green background */
     padding-bottom: 200px;
 }
 
@@ -18,19 +18,19 @@ banner_main
 .banner_main .bluid h1 {
     font-size: 70px;
     font-weight: bold;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
     line-height: 80px;
     padding-bottom: 30px;
 }
 
 .banner_main .bluid h1 span {
-    color: #fff; /* Ensuring consistency with white text */
+    color: #fff; /* White text */
 }
 
 .banner_main .bluid p {
     font-size: 18px;
     line-height: 30px;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .padd_30 {
@@ -45,13 +45,13 @@ banner_main
     top: 50%;
     opacity: 1;
     font-size: 25px;
-    color: #008080; /* Changed to teal green */
+    color: #008080; /* Teal green color */
     z-index: 999;
 }
 
 #myCarousel a.carousel-control-next:hover, 
 #myCarousel a.carousel-control-prev:hover {
-    color: #008080; /* Changed to teal green */
+    color: #008080; /* Teal green color */
 }
 
 .carousel-inner {
@@ -74,7 +74,7 @@ banner_main
     }
 
     .banner_main .bluid h1 span {
-        color: #fff;
+        color: #fff; /* White text */
     }
 
     .bluid {
@@ -121,14 +121,14 @@ about
     font-size: 45px;
     font-weight: bold;
     line-height: 45px;
-    color: #008080; /* Changed to teal green */
+    color: #008080; /* Teal green text */
     text-transform: uppercase;
 }
 
 .about .titlepage p {
     font-size: 18px;
     line-height: 30px;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .about .read_more {
@@ -156,13 +156,13 @@ about
     font-size: 22px;
     font-weight: bold;
     padding: 30px 0 15px 0;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .about_box p {
     font-size: 18px;
     line-height: 28px;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 /** Testimonials **/
@@ -176,14 +176,14 @@ about
     font-size: 45px;
     font-weight: bold;
     line-height: 45px;
-    color: #fff;
+    color: #fff; /* White text */
     text-transform: uppercase;
 }
 
 .Testimonials .titlepage p {
     font-size: 18px;
     line-height: 30px;
-    color: #ffffff;
+    color: #ffffff; /* White text */
 }
 
 .test_box {
@@ -201,12 +201,12 @@ about
     margin-top: 40px;
     text-align: center;
     border-radius: 5px;
-    border-bottom: 10px solid #008080; /* Changed to teal green */
+    border-bottom: 10px solid #008080; /* Teal green border */
     transition: ease-in all 0.5s;
 }
 
 .test_box .client_id:hover {
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid #fff; /* White border on hover */
     transition: ease-in all 0.5s;
 }
 
@@ -243,14 +243,14 @@ about
     font-size: 45px;
     font-weight: bold;
     line-height: 45px;
-    color: #008080; /* Changed to teal green */
+    color: #008080; /* Teal green text */
     text-transform: uppercase;
 }
 
 .contact .titlepage p {
     font-size: 18px;
     line-height: 30px;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .contact .read_more {
@@ -265,13 +265,13 @@ about
     font-size: 22px;
     font-weight: bold;
     padding: 30px 0 15px 0;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .contact_box p {
     font-size: 18px;
     line-height: 28px;
-    color: #fff; /* Changed to white for better visibility */
+    color: #fff; /* White text */
 }
 
 .contact_box .form-control {
@@ -294,8 +294,8 @@ about
 
 .contact_box .send_btn {
     display: inline-block;
-    background: #008080; /* Changed to teal green */
-    color: #fff; /* Changed to white for better visibility */
+    background: #008080; /* Teal green background */
+    color: #fff; /* White text */
     width: 100%;
     font-size: 18px;
     text-align: center;
@@ -315,7 +315,7 @@ about
 
 footer {
     padding: 50px 0px;
-    background: #008080; /* Changed to teal green */
+    background: #008080; /* Teal green background */
     border-top: #fff;
 }
 
@@ -331,7 +331,7 @@ footer ul.social_icon li {
 
 footer ul.social_icon li a {
     font-size: 25px;
-    color: #fff;
+    color: #fff; /* White text */
 }
 
 footer ul.location_icon {
@@ -346,12 +346,12 @@ footer ul.location_icon li {
 
 footer ul.location_icon li a {
     font-size: 20px;
-    color: #fff;
+    color: #fff; /* White text */
 }
 
 footer ul.location_icon li span {
     font-size: 18px;
-    color: #fff;
+    color: #fff; /* White text */
     padding-left: 10px;
     line-height: 30px;
 }
@@ -371,7 +371,7 @@ footer ul.links li {
 }
 
 footer ul.links li a {
-    color: #fff;
+    color: #fff; /* White text */
     font-size: 18px;
 }
 
@@ -380,11 +380,11 @@ footer ul.links li a:hover {
 }
 
 footer ul.links.address li a {
-    color: #fff;
+    color: #fff; /* White text */
 }
 
 footer ul.links.address li span {
-    color: #fff;
+    color: #fff; /* White text */
 }
 
 footer ul.links.address li a:hover {
@@ -413,10 +413,10 @@ footer ul.links.address li a {
 }
 
 footer p {
-    color: #fff;
+    color: #fff; /* White text */
     margin-top: 30px;
 }
 
 footer a {
-    color: #fff;
+    color: #fff; /* White text */
 }
