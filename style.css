@@ -554,7 +554,7 @@ ul.email li {
     transition: ease-in all 0.5s; 
  }
 #ho_bg:hover.cameras_text {
-    background: #37ecba;
+    background: #afd372;
     transition: ease-in all 0.5s;
     cursor: pointer;
 }
@@ -592,7 +592,7 @@ ul.email li {
 }
 
 .choose_bg {
-    background: #37ecba;
+    background: #afd372;
     padding-top: 75px;
     padding-bottom: 308px;
 }
@@ -655,7 +655,7 @@ ul.email li {
 /** clients **/
 
 .clients {
-    background: #37ecba;
+    background: #afd372;
     padding-bottom: 10px;
     padding-top: 200px;
 }
@@ -736,7 +736,7 @@ ul.email li {
 #testi a.carousel-control-prev:focus,
 #testi a.carousel-control-prev:hover {
      opacity: 1;
-     background: #37ecba;
+     background: #afd372;
 }
 
 /** end clients **/
