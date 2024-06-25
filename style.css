@@ -338,7 +338,7 @@ ul.email li {
 }
 
 .sidepanel a:hover {
-     color: #6bb80ee;
+     color: #006A4E;
 }
 
 .sidepanel a.active {
@@ -368,7 +368,7 @@ ul.email li {
 }
 
 .full_bf {
-     background:#008080;
+     background:#87A96B;
      width: 100%;
      background-size: cover;
      position: relative;
@@ -854,7 +854,7 @@ ul.email li {
 }
 
 .Informa li a:hover {
-     color: #10c286;
+     color: #87A96B;
 }
 
 .helpful ul li a {
@@ -868,7 +868,7 @@ ul.email li {
     position: absolute;
     content: "";
     left: 0;
-    background: #37ecba;
+    background: #00563B;
     width: 13px;
     height: 13px;
     border-radius: 30px;
@@ -913,7 +913,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #008080;
+     background: #00563B;
      color: #fff;
      transform: rotate(360deg);
      transition: ease-in all 0.7s;
@@ -966,7 +966,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright a {
-     color: #252525;
+     color: #87A96B;
 }
 
 .copyright a:hover {
@@ -979,7 +979,7 @@ ul.social_icon li a:hover {
 
 /*- - ener page css--*/
 .inner_page header {
-     background: #004040;
+     background: #87A96B;
 }
 .inner_page .padd_30 {
     padding:0px;
