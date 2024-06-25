@@ -322,7 +322,7 @@ ul.email li {
      height: 100%;
      top: 0;
      left: 0;
-     background-color: #37ecba;
+     background-color: #72afd3;
      overflow-x: hidden;
      transition: 0.5s;
      padding-top: 60px;
@@ -368,7 +368,7 @@ ul.email li {
 }
 
 .full_bf {
-     background:#37ecba;
+     background:#72afd3;
      width: 100%;
      background-size: cover;
      position: relative;
@@ -402,7 +402,7 @@ ul.email li {
 }
 
 .banner_main .bluid h1 {
-     color: #37ecba;
+     color: #72afd3;
      font-size: 80px;
      line-height: 90px;
      font-weight: bold;
