@@ -22,7 +22,7 @@ basic
 ---------------------------------------------------------------------*/
 
 body {
-     color: #F0F8FF;
+     color: #ffffff;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -202,7 +202,7 @@ button {
      font-size: 45px;
      font-weight: bold;
      line-height: 45px;
-     color: #2f64f2f;
+     color: #008080;
      text-transform: uppercase;
 }
 
@@ -222,7 +222,7 @@ button {
 }
 
 .read_more:hover {
-     background: #72afd3;
+     background: #008080;
      color: #fff;
      transition: ease-in all 0.5s;
 }
