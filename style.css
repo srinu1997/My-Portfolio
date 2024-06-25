@@ -208,7 +208,7 @@ button {
 
 .read_more {
      display: inline-block;
-     background: #8fd3f4;
+     background: #72afd3;
      color: #dee4fd;
      max-width: 238px;
      height: 69px;
@@ -222,7 +222,7 @@ button {
 }
 
 .read_more:hover {
-     background: #8fd3f4;
+     background: #72afd3;
      color: #fff;
      transition: ease-in all 0.5s;
 }
