@@ -714,7 +714,7 @@ ul.email li {
 
 #testi a.carousel-control-next, 
 #testi a.carousel-control-prev {
-    background: #37ecba;
+    background: #fff;
     width: 76px;
     height: 66px;
     top: 83%;
@@ -900,7 +900,7 @@ ul.social_icon li:last-child {
 }
 
 ul.social_icon li a {
-     background: #37ecba;
+     background: #fff;
      color: #253525;
      width: 32px;
      height: 32px;
@@ -913,7 +913,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #37ecba;
+     background: #253225;
      color: #fff;
      transform: rotate(360deg);
      transition: ease-in all 0.7s;
