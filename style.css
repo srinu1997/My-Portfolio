@@ -554,7 +554,7 @@ ul.email li {
     transition: ease-in all 0.5s; 
  }
 #ho_bg:hover.cameras_text {
-    background: #afd372;
+    background: #10c286;
     transition: ease-in all 0.5s;
     cursor: pointer;
 }
