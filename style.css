@@ -158,7 +158,7 @@ img {
 .lead {
      font-size: 18px;
      line-height: 30px;
-     color: #767776;
+     color:#629c62;
      margin: 0;
      padding: 0;
 }
@@ -202,7 +202,7 @@ button {
      font-size: 45px;
      font-weight: bold;
      line-height: 45px;
-     color: #8FBC8F;
+     color:#629c62;
      text-transform: uppercase;
 }
 
